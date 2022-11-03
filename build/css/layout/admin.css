@@ -1,0 +1,27 @@
+/** Media Queries **/
+.main_admin p, .main_admin a, .main_admin h1, .main_admin h2, .main_admin h3, .main_admin h4, .main_admin th, .main_admin td {
+  font-size: small;
+}
+@media (min-width: 768px) {
+  .main_admin p, .main_admin a, .main_admin h1, .main_admin h2, .main_admin h3, .main_admin h4, .main_admin th, .main_admin td {
+    font-size: medium;
+  }
+}
+@media (min-width: 1024px) {
+  .main_admin p, .main_admin a, .main_admin h1, .main_admin h2, .main_admin h3, .main_admin h4, .main_admin th, .main_admin td {
+    font-size: large;
+  }
+}
+
+.lista_admin {
+  margin: 50px;
+}
+.lista_admin thead {
+  background-color: #71B100;
+}
+.lista_admin tbody {
+  font-weight: bolder;
+}
+.lista_admin img {
+  width: 150px;
+}
